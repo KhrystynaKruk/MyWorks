@@ -148,3 +148,25 @@ body {
     font-weight: bold;
   }
 }
+/* top btn */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 2px solid #ff004f;
+  border-radius: 20%;
+  outline: none;
+  background-color: #ffffffc9;
+  color: #ff004f;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#myBtn:hover {
+  background-color: #ff004f;
+  color: #fff;
+}
