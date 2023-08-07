@@ -135,3 +135,16 @@ body {
 .copyright i {
   color: #ff004f;
 }
+@media only screen and (max-width: 600px) {
+  .animate-character-02 {
+    font-size: 50px;
+  }
+  .copyright {
+    font-size: 10px;
+    padding: 15px 0;
+    letter-spacing: 5px;
+  }
+  .copyright span {
+    font-weight: bold;
+  }
+}
