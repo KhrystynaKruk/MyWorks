@@ -92,6 +92,9 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+.layer h4 {
+  margin: 5px;
+}
 
 .layer a {
   margin-top: 20px;
