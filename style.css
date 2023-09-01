@@ -49,7 +49,7 @@ body {
 
 .work-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
@@ -61,6 +61,7 @@ body {
 }
 
 .work img {
+  height: 100%;
   filter: brightness(0.8);
   width: 100%;
   border-radius: 10px;
